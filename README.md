@@ -1,0 +1,2 @@
+# gazetemarmara
+Günlük gazete
