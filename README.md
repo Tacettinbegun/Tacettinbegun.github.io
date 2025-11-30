@@ -6,4 +6,4 @@
 
 ### Responsive News Website using HTML, CSS and JavaScript
 
-#### https://aparagarwal.github.io/News-Website/
+#### https://Tacettinbegun.github.io/News-Website/
