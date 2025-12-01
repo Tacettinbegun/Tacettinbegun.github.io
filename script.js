@@ -1,12 +1,12 @@
-const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const weekday = ["Pazar", "Pazartesi", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const month = ["January", "February", "March", "April", "May", "June", "July", "August", "Eylül", "Ekim", "Kasým", "December"];
 
 const d = new Date();
 let day = weekday[d.getDay()];
 let mname = month[d.getMonth()];
 let date = d.getDate();
 let year = d.getFullYear();
-document.getElementById("date").innerHTML = `<h4>${day}, ${mname} ${date}, ${year}</h4><span>Today's Paper</span>`;
+document.getElementById("date").innerHTML = `<h4>${day}, ${mname} ${date}, ${year}</h4><span>Günün Notlarý</span>`;
 
 // Fetching the news from the API
 

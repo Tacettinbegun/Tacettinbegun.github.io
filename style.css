@@ -85,9 +85,10 @@ stroke-dasharray: 20 300;
 stroke-dashoffset: -32.42;
 }
 
-.logo{
-    width: 170px;
-    height: 60px;
+.logo {
+    margin-left: 10px;
+    width: 250px;
+    height: 80px;
     background: url(assets/logo.png) no-repeat center center/cover;
 }
 
